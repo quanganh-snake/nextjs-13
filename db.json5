@@ -1,0 +1,17 @@
+{
+	users: [
+		{ id: "1", fullName: "Tống Bá Quang Anh", username: "tbquanganh", email: "tbquanganh@gmail.com" },
+		{ id: "2", fullName: "Tống Bá Quang Anh", username: "tbquanganh", email: "tbquanganh@gmail.com" },
+	],
+	posts: [
+		{ id: "1", title: "Post 01", content: "This is content ABC", author: "Tống Bá Quang Anh" },
+		{ id: "2", title: "Post 02", content: "This is content ABC", author: "Tống Bá Quang Anh" },
+	],
+	comments: [
+		{ id: "1", text: "a comment about post 1", postId: "1" },
+		{ id: "2", text: "another comment about post 1", postId: "1" },
+	],
+	profile: {
+		name: "typicode",
+	},
+}
